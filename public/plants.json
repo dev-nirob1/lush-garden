@@ -1,0 +1,130 @@
+[
+    {
+        "id": "1",
+        "img": "path/to/plant1-image.jpg",
+        "plantName": "Golden Monstera",
+        "lastPrice": "$29.99",
+        "currentPrice": "$24.99",
+        "information": {
+            "description": "An elegant plant with stunning golden leaves.",
+            "careInstructions": "Water regularly, place in indirect sunlight, and fertilize monthly for optimal growth.",
+            "availability": "In stock",
+            "shippingInfo": {
+                "shippingCost": "$5.99",
+                "estimatedDelivery": "3-5 business days"
+            }
+        }
+    },
+    {
+        "id": "2",
+        "img": "path/to/plant2-image.jpg",
+        "plantName": "Peace Lily",
+        "lastPrice": "$19.99",
+        "currentPrice": "$15.99",
+        "information": {
+            "description": "A classic choice for a clean and peaceful indoor environment.",
+            "careInstructions": "Keep soil consistently moist, place in low to medium light, and enjoy its air-purifying qualities.",
+            "availability": "In stock",
+            "shippingInfo": {
+                "shippingCost": "$4.99",
+                "estimatedDelivery": "2-4 business days"
+            }
+        }
+    },
+    {
+        "id": "3",
+        "img": "path/to/plant3-image.jpg",
+        "plantName": "Snake Plant",
+        "lastPrice": "$24.99",
+        "currentPrice": "$19.99",
+        "information": {
+            "description": "A hardy and low-maintenance plant with striking vertical leaves.",
+            "careInstructions": "Allow soil to dry between waterings, place in indirect light, and enjoy its air-purifying benefits.",
+            "availability": "In stock",
+            "shippingInfo": {
+                "shippingCost": "$5.99",
+                "estimatedDelivery": "3-5 business days"
+            }
+        }
+    },
+    {
+        "id": "4",
+        "img": "path/to/plant4-image.jpg",
+        "plantName": "Fiddle Leaf Fig",
+        "lastPrice": "$39.99",
+        "currentPrice": "$34.99",
+        "information": {
+            "description": "A stylish plant with large, violin-shaped leaves.",
+            "careInstructions": "Water when the top inch of soil is dry, place in bright indirect light, and provide support for its growth.",
+            "availability": "In stock",
+            "shippingInfo": {
+                "shippingCost": "$7.99",
+                "estimatedDelivery": "5-7 business days"
+            }
+        }
+    },
+    {
+        "id": "5",
+        "img": "path/to/plant5-image.jpg",
+        "plantName": "Spider Plant",
+        "lastPrice": "$14.99",
+        "currentPrice": "$11.99",
+        "information": {
+            "description": "A versatile and adaptable plant with arching green and white striped leaves.",
+            "careInstructions": "Keep soil evenly moist, place in indirect light, and enjoy its air-purifying qualities.",
+            "availability": "In stock",
+            "shippingInfo": {
+                "shippingCost": "$3.99",
+                "estimatedDelivery": "1-3 business days"
+            }
+        }
+    },
+    {
+        "id": "6",
+        "img": "path/to/plant6-image.jpg",
+        "plantName": "Succulent Mix",
+        "lastPrice": "$9.99",
+        "currentPrice": "$7.99",
+        "information": {
+            "description": "A delightful mix of various succulents in different shapes and colors.",
+            "careInstructions": "Water sparingly, place in bright sunlight, and enjoy the diversity of these low-maintenance plants.",
+            "availability": "In stock",
+            "shippingInfo": {
+                "shippingCost": "$2.99",
+                "estimatedDelivery": "1-2 business days"
+            }
+        }
+    },
+    {
+        "id": "7",
+        "img": "path/to/plant7-image.jpg",
+        "plantName": "Bamboo Palm",
+        "lastPrice": "$27.99",
+        "currentPrice": "$22.99",
+        "information": {
+            "description": "A tropical beauty with feathery fronds that brings a touch of the tropics indoors.",
+            "careInstructions": "Keep soil consistently moist, place in indirect light, and mist occasionally for added humidity.",
+            "availability": "In stock",
+            "shippingInfo": {
+                "shippingCost": "$6.99",
+                "estimatedDelivery": "4-6 business days"
+            }
+        }
+    },
+    {
+        "id": "8",
+        "img": "path/to/plant8-image.jpg",
+        "plantName": "African Violet",
+        "lastPrice": "$18.99",
+        "currentPrice": "$14.99",
+        "information": {
+            "description": "A charming plant with velvety leaves and colorful, delicate flowers.",
+            "careInstructions": "Keep soil consistently moist, place in bright indirect light, and avoid getting water on the leaves.",
+            "availability": "In stock",
+            "shippingInfo": {
+                "shippingCost": "$5.99",
+                "estimatedDelivery": "3-5 business days"
+            }
+        }
+    }
+]
