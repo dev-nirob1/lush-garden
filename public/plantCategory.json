@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "img": "./../../../assets/plant-category/Indoor_Plant.jpg",
+        "category": "Indoor Plant",
+        "description": "Bring the beauty of nature to your outdoor spaces with our wide selection of outdoor plants"
+    },
+    {
+        "id": 2,
+        "img": "./../../../assets/plant-category/Outdoor_Plant.jpg",
+        "category": "Outdoor Plant",
+        "description": "Bring a touch of greenery to your living spaces with our collection of indoor plants, perfect for purifying the air and adding a natural touch to your home."
+    },
+    {
+        "id": 3,
+        "img": "./../../../assets/plant-category/Bamboo.jpg",
+        "category": "Plants Pots",
+        "description": "Add a touch of style to your indoor or outdoor spaces with our collection of pots plants, available in a variety of sizes and designs to fit any decor"
+    }
+]
