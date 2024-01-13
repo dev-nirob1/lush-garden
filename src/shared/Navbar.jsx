@@ -7,7 +7,7 @@ const Navbar = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            if (window.scrollY > 400) {
+            if (window.scrollY > 200) {
                 setScrolling(true);
             } else {
                 setScrolling(false);
@@ -29,7 +29,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <nav className={`fixed top-0 left-0 w-full p-4 transition-all duration-300 ${scrolling ? 'bg-[#285A43] shadow-md' : 'bg-transparent'}`}>
+            <nav className={`fixed top-0 left-0 w-full p-3 transition-all duration-300 ${scrolling ? 'bg-[#285A43] shadow-md' : 'bg-transparent'}`}>
                 <div className="max-w-screen-xl mx-auto flex items-center justify-between">
                     <Link to="#" className="text-white text-xl flex items-end">
                         <h1 className='text-3xl font-[LeckerliOne]'>Lush</h1>
