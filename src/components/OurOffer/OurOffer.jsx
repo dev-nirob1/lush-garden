@@ -5,7 +5,7 @@ import Offer from "./Offer";
 const OurOffer = () => {
 
     const { data: offerData = [] } = useQuery({
-        queryKey: 'plantsOffer',
+        queryKey: ['plantsOffer'],
         queryFn: async () => {
             const res = await fetch('plantsOffer.json')
             const data = await res.json()

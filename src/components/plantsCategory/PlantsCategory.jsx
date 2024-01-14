@@ -3,7 +3,7 @@ import Category from "./Category";
 
 const PlantsCategory = () => {
     const { data: categorys = [] } = useQuery({
-        queryKey: 'plantCategory',
+        queryKey: ['plantCategory'],
         queryFn: async () => {
             const res = await fetch('/plantCategory.json')
             const data = await res.json();

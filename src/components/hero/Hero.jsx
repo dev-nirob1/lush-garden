@@ -1,7 +1,7 @@
-import lushBanner from './../../assets/lush-banner2.png';
+import lushBanner from './../../assets/banner.jpg';
 const Hero = () => {
     return (
-        <div className="h-[100vh] w-full bg-center bg-no-repeat bg-cover" style={{ background: `linear-gradient(180deg, rgba(18, 56, 39, 0.34) 0%, rgba(40, 90, 67, 0.34) 47.92%, rgba(40, 90, 67, 0.10) 100%), url(${lushBanner})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+        <div className="h-[100vh] w-full object-cover" style={{ background: `linear-gradient(180deg, rgba(18, 56, 39, 0.34) 0%, rgba(40, 90, 67, 0.34) 47.92%, rgba(40, 90, 67, 0.10) 100%), url(${lushBanner})`, backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', backgroundPosition: 'center' }}>
             <div className="h-full w-full flex items-center justify-center">
                 <div className="md:w-3/4 text-center">
                     <h1 className="text-3xl font-medium px-2 md:px-0 lg:text-5xl mb-4 text-white">Nature&apos;s Beauty Delivered to You</h1>
