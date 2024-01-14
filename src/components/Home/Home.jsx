@@ -1,4 +1,5 @@
 import Gallery from "../Gallery/Gallery";
+import NewsLetter from "../Newsletter/NewsLetter";
 import OurOffer from "../OurOffer/OurOffer";
 import Services from "../Services/Services";
 import Hero from "../hero/Hero";
@@ -12,6 +13,7 @@ const Home = () => {
             <OurOffer/>
             <Services/>
             <Gallery/>
+            <NewsLetter/>
         </div>
     );
 };
