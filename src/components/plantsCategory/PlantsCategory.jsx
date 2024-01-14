@@ -12,7 +12,7 @@ const PlantsCategory = () => {
     })
 
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto px-2 md:px-0">
             <div className="grid md:grid-cols-2 gap-16 mb-20">
                 <div >
                     <h2 className="text-[#285A43] text-4xl">We Help choose the most suitable plants for you</h2>

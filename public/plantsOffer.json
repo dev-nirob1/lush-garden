@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "img": "path/to/plant1-image.jpg",
+        "img": "https://i.ibb.co/FsSCh3f/Golden-Monstera.png",
         "plantName": "Golden Monstera",
         "lastPrice": "$29.99",
         "currentPrice": "$24.99",
@@ -17,7 +17,7 @@
     },
     {
         "id": "2",
-        "img": "path/to/plant2-image.jpg",
+        "img": "https://i.ibb.co/N7XMbV3/Peace-Lily.png",
         "plantName": "Peace Lily",
         "lastPrice": "$19.99",
         "currentPrice": "$15.99",
@@ -33,7 +33,7 @@
     },
     {
         "id": "3",
-        "img": "path/to/plant3-image.jpg",
+        "img": "https://i.ibb.co/H2GtSPY/Snake-Plant.png",
         "plantName": "Snake Plant",
         "lastPrice": "$24.99",
         "currentPrice": "$19.99",
@@ -49,7 +49,7 @@
     },
     {
         "id": "4",
-        "img": "path/to/plant4-image.jpg",
+        "img": "https://i.ibb.co/F49PzbG/Fiddle-Leaf-Fig.png",
         "plantName": "Fiddle Leaf Fig",
         "lastPrice": "$39.99",
         "currentPrice": "$34.99",
@@ -65,8 +65,8 @@
     },
     {
         "id": "5",
-        "img": "path/to/plant5-image.jpg",
-        "plantName": "Spider Plant",
+        "img": "https://i.ibb.co/JFWFh5f/cactus.png",
+        "plantName": "Cactus Plant",
         "lastPrice": "$14.99",
         "currentPrice": "$11.99",
         "information": {
@@ -81,7 +81,7 @@
     },
     {
         "id": "6",
-        "img": "path/to/plant6-image.jpg",
+        "img": "https://i.ibb.co/qgnMCKx/Succulent-Mix.png",
         "plantName": "Succulent Mix",
         "lastPrice": "$9.99",
         "currentPrice": "$7.99",
@@ -97,7 +97,7 @@
     },
     {
         "id": "7",
-        "img": "path/to/plant7-image.jpg",
+        "img": "https://i.ibb.co/zxP3Qy3/Bamboo-Palm.png",
         "plantName": "Bamboo Palm",
         "lastPrice": "$27.99",
         "currentPrice": "$22.99",
@@ -113,7 +113,7 @@
     },
     {
         "id": "8",
-        "img": "path/to/plant8-image.jpg",
+        "img": "https://i.ibb.co/YLFhFFc/African-Violet.jpg",
         "plantName": "African Violet",
         "lastPrice": "$18.99",
         "currentPrice": "$14.99",

@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import Home from './components/hero/Home/Home.jsx';
 import './index.css'
 import {
   createBrowserRouter,
@@ -11,6 +10,7 @@ import {
   QueryClient,
   QueryClientProvider,
 } from '@tanstack/react-query'
+import Home from './components/Home/Home.jsx';
 
 const queryClient = new QueryClient()
 
