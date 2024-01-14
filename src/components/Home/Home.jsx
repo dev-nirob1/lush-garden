@@ -1,3 +1,4 @@
+import Gallery from "../Gallery/Gallery";
 import OurOffer from "../OurOffer/OurOffer";
 import Services from "../Services/Services";
 import Hero from "../hero/Hero";
@@ -10,6 +11,7 @@ const Home = () => {
             <PlantsCategory/>
             <OurOffer/>
             <Services/>
+            <Gallery/>
         </div>
     );
 };
