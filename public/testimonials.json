@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Jessica Watson",
+        "image": "/src/assets/testimonials/watson.png",
+        "review": "Highly recommend this website for quality flowers and plants. Great prices, timely delivery and excellent customer service.",
+        "backgroundImage": "/src/assets/testimonials/Bamboo_prev_ui.png"
+    },
+    {
+        "id": 2,
+        "name": "Kate Szu",
+        "image": "/src/assets/testimonials/kate.png",
+        "review": "Great service, beautiful flowers, timely delivery. Highly recommend.",
+        "backgroundImage": "/src/assets/testimonials/Snake_Plant_prev_ui.png"
+    },
+    {
+        "id": 3,
+        "name": "Grace",
+        "image": "/src/assets/testimonials/grace.png",
+        "review": "I am very happy with my purchase from this website, the plants were healthy and arrived on time.",
+        "backgroundImage": "/src/assets/testimonials/Bamboo_prev_ui.png"
+    }
+]

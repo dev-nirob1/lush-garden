@@ -11,14 +11,12 @@ const Services = () => {
         }
     })
     return (
-        <div className="max-w-[1530px] mx-auto ">
+        <div className="max-w-[1530px] mx-auto">
             <div className="grid md:grid-cols-2">
 
-                <div>
-                    <img src={servicesImg} alt="" />
-                </div>
+                    <img className="object-fill h-[550px] md:h-[650px] w-full" src={servicesImg} alt="" />
 
-                <div className="grid md:grid-cols-2">
+                <div className="grid md:grid-cols-2 gap-5 md:gap-0">
                     {
                         services.map((service, index) => <Service key={service.id} service={service} index={index} />)
                     }

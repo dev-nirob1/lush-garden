@@ -8,19 +8,20 @@ const Gallery = () => {
     return (
         <div>
             <SectionTitle title="Our Gallery View" />
-            <div className="grid lg:grid-cols-3 gap-2 h-full w-full">
-    <div className="h-full col-span-3 lg:col-span-1 w-full">
-        <img className="h-full w-full object-cover" src={image1} alt="" />
-    </div>
-    <div className="lg:col-span-2 h-full w-full mx-auto">
-        <div className="grid grid-cols-2 w-full h-full gap-2">
-            <img className="h-full w-fit object-cover" src={image2} alt="" />
-            <img className="h-full w-fit object-cover" src={image3} alt="" />
-            <img className="h-full w-fit object-cover" src={image4} alt="" />
-            <img className="h-full w-fit object-cover" src={image5} alt="" />
-        </div>
-    </div>
-</div>
+
+            <div className="grid lg:grid-cols-3 gap-2">
+                <div className="h-full w-full col-span-3 lg:col-span-1 overflow-hidden">
+                    <img className="h-[400px] md:h-[500px] lg:h-full object-cover w-full" src={image1} alt="" />
+                </div>
+                <div className="lg:col-span-2 w-full h-full">
+                    <div className="grid grid-cols-2 mx-auto gap-2 mx-auto w-full h-full">
+                        <img className="h-full w-full object-cover" src={image2} alt="" />
+                        <img className="h-full w-full object-cover" src={image3} alt="" />
+                        <img className="h-full w-full object-cover" src={image4} alt="" />
+                        <img className="h-full w-full object-cover" src={image5} alt="" />
+                    </div>
+                </div>
+            </div>
 
         </div>
     );
