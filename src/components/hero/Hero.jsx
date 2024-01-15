@@ -1,4 +1,5 @@
 import lushBanner from './../../assets/banner.jpg';
+import { FaRegCirclePlay } from "react-icons/fa6";
 import {motion} from 'framer-motion'
 const Hero = () => {
     const variants = {
@@ -21,12 +22,12 @@ const Hero = () => {
                 <div className="md:w-3/4 text-center">
                     <h1 className="text-3xl font-medium px-2 md:px-0 lg:text-5xl mb-4 text-white">Nature&apos;s Beauty Delivered to You</h1>
                     <p className="text-lg font-medium text-[#F8F8F8] md:w-3/4 lg:w-7/12 mx-auto px-2 md:px-0">Nature&apos;s beauty is just a click away with our online flower and plant shop. We offer a wide variety of flowers that will bring a touch of nature to your home!</p>
-                    <div className='mt-10'>
+                    <div className='mt-10 flex items-center justify-center'>
                         <button className='px-8 py-3 mr-4 font-semibold text-white rounded bg-[#285A43] hover:text-[#385A43] hover:bg-white'>
                             Book Now
                         </button>
-                        <button className='px-8 py-[10px] font-semibold bg-transparent rounded hover:bg-[#285A43] text-white border border-white hover:border-[#285A43]'>
-                            Watch Video
+                        <button className='px-8 py-[10px] font-semibold bg-transparent rounded hover:bg-[#285A43] text-white border border-white hover:border-[#285A43] flex items-center gap-2'>
+                        <FaRegCirclePlay size={20}/> Watch Video
                         </button>
                     </div>
                 </div>
