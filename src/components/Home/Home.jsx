@@ -1,4 +1,4 @@
-import Blog from "../Blogs/Blog";
+import Blogs from "../Blogs/Blogs";
 import Gallery from "../Gallery/Gallery";
 import NewsLetter from "../Newsletter/NewsLetter";
 import OurOffer from "../OurOffer/OurOffer";
@@ -9,7 +9,7 @@ import PlantsCategory from "../plantsCategory/PlantsCategory";
 
 const Home = () => {
     return (
-        <div className="space-y-32">
+        <div className="space-y-10 md:space-y-16 lg:space-y-32">
             <Hero />
             <PlantsCategory />
             <OurOffer />
@@ -17,7 +17,7 @@ const Home = () => {
             <Gallery />
             <Testimonials />
             <NewsLetter />
-            <Blog />
+            <Blogs />
         </div>
     );
 };
